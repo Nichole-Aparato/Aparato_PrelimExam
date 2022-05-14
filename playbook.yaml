@@ -1,0 +1,20 @@
+--- 
+- name: Prelim Exam
+  hosts: all
+
+
+
+
+
+  tasks:
+    - name: config.yaml
+      include_vars:
+        file: config.yaml
+
+
+
+
+- name: Roles
+  hosts: all
+  roles: 
+    - python

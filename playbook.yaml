@@ -18,3 +18,6 @@
   hosts: all
   roles: 
     - python
+    - java
+    - MOTD
+    - user

@@ -1,0 +1,5 @@
+---
+- name: MOTD
+  become: yes
+  command: sh -c 'echo "ansible Managed Node by {{ username }} server" > /etc/motd'
+# tasks file for MOTD
